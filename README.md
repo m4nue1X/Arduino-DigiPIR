@@ -5,7 +5,7 @@ only supports wake-up operation mode (i. e. the sensor triggers an interrupt on 
 any Arduino borad with 2 GPIOs, one of them with interrupt support. It has been tested only with ESP8266 boards so far.
 
 Simple example:
-~~~~
+~~~~C++
 #include <DigiPIR.h>
 
 DigiPIR pir;
@@ -25,7 +25,7 @@ void loop() {
 ~~~~
 
 Advanced example with ESP8266 in light sleep and modified threshold:
-~~~~
+~~~~C++
 #include <DigiPIR.h>
 
 DigiPIR pir;
